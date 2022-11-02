@@ -1,15 +1,3 @@
-#Name: Dylan Jones
-#Program: Fibonacci Numbers
-#Write a MIPS program that prompts for a number (n) and then prints out the 
-#nth number of the fibonacci sequence.  F(0) = 0, F(1) = 1, F(n) = F(n - 1) + F(n - 2).
-#int fib(int n)
-#{
-#	if(n < 2)
-#		return n;
-#	else
-#		return fib(n-1)+fib(n-2);
-#}
-
 	.data
 enter_number_prompt:
 	.asciiz "Enter n for fibonacci(n): "
